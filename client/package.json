@@ -7,11 +7,13 @@
     "build": "ng build",
     "test": "ng test",
     "lint": "ng lint",
-    "e2e": "ng e2e"
+    "e2e": "ng e2e",
+    "postinstall": "ngcc"
   },
   "private": true,
   "dependencies": {
     "@angular/animations": "~11.2.1",
+    "@angular/cdk": "^13.0.0",
     "@angular/common": "~11.2.1",
     "@angular/compiler": "~11.2.1",
     "@angular/core": "~11.2.1",
@@ -22,7 +24,7 @@
     "bootstrap": "^4.6.0",
     "bootswatch": "^4.4.1",
     "font-awesome": "^4.7.0",
-    "ngx-bootstrap": "^6.0.0",
+    "ngx-bootstrap": "^7.0.0-rc.1",
     "ngx-spinner": "^8.0.1",
     "ngx-toastr": "^11.3.2",
     "rxjs": "~6.6.0",
