@@ -90,7 +90,7 @@ namespace Infrastructure.Services
 
             await _unitOfWork.Complete();
 
-            return null;
+            return order;
         }
 
         public async Task<Order> UpdateOrderPaymentFailed(string paymentIntentId)
